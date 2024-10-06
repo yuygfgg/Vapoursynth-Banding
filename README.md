@@ -8,8 +8,6 @@ This VapourSynth plugin artificially enhances banding in 8-bit video by reducing
    ninja -C build install
    ```
 
-6. The compiled plugin file will be placed in the `build` directory. Copy the resulting shared library (e.g., `banding_plugin.dll` for Windows or `libbanding_plugin.so` for Linux) to your VapourSynth plugin directory.
-
 ## Usage
 
 
