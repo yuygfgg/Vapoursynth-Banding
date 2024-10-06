@@ -110,6 +110,6 @@ static void VS_CC bandingCreate(const VSMap *in, VSMap *out, void *userData, VSC
 
 // This function is called when the plugin is loaded
 VS_EXTERNAL_API(void) VapourSynthPluginInit2(VSPlugin *plugin, const VSPLUGINAPI *vspapi) {
-    vspapi->configPlugin("com.example.banding", "banding", "VapourSynth Banding Example", VS_MAKE_VERSION(1, 0), VAPOURSYNTH_API_VERSION, 0, plugin);
+    vspapi->configPlugin("com.yuygfgg.banding", "banding", "VapourSynth Banding Producer", VS_MAKE_VERSION(1, 0), VAPOURSYNTH_API_VERSION, 0, plugin);
     vspapi->registerFunction("Filter", "clip:vnode;enabled:int:opt;", "clip:vnode;", bandingCreate, NULL, plugin);
 }
